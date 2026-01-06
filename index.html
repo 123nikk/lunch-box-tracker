@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daily Lunch Box Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f4f4f4; }
+    header { background: #2e7d32; color: white; padding: 15px; text-align: center; }
+    section { padding: 20px; margin: 15px; background: white; border-radius: 8px; }
+    h2 { color: #2e7d32; }
+    input, select, button {
+      width: 100%; padding: 10px; margin: 8px 0;
+      border-radius: 5px; border: 1px solid #ccc;
+    }
+    button { background: #2e7d32; color: white; border: none; }
+    footer { text-align: center; padding: 10px; color: gray; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Daily Lunch Box Tracker</h1>
+  <p>Delivery • Expenses • Profit</p>
+</header>
+
+<section>
+  <h2>Daily Delivery</h2>
+  <input type="date">
+  <input type="text" placeholder="Customer Name">
+  <select>
+    <option>Delivered</option>
+    <option>Not Delivered</option>
+  </select>
+  <button>Save</button>
+</section>
+
+<section>
+  <h2>Expenses</h2>
+  <input type="date">
+  <input type="text" placeholder="Expense Type (Vegetables, Gas, Salary)">
+  <input type="number" placeholder="Amount">
+  <button>Add Expense</button>
+</section>
+
+<section>
+  <h2>Income</h2>
+  <input type="text" placeholder="Customer Name">
+  <input type="number" placeholder="Monthly Amount">
+  <button>Add Income</button>
+</section>
+
+<section>
+  <h2>Profit Summary</h2>
+  <p>This version is a basic tracker.</p>
+  <p>For automatic calculation, connect with Google Sheets later.</p>
+</section>
+
+<footer>
+  <p>Daily Lunch Box Tracker</p>
+</footer>
+
+</body>
+</html>
